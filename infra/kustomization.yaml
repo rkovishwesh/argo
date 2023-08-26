@@ -3,6 +3,3 @@ kind: Kustomization
 namespace: argocd
 resources:
   - resources.yaml
-spec:
-  dependsOn:
-    - name: infrastructure
