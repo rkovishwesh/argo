@@ -5,6 +5,7 @@ metadata:
 namespace: argocd
 resources:
   - resources.yaml
-# spec:
-#   dependsOn:
-#     - name: infrastructure
+  - ../infra
+spec:
+  dependsOn:
+    - name: infrastructure
